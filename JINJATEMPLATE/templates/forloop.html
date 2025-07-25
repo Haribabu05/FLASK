@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h3>
+  <ul>
+   {#(loop) is a special variable that iterates each time till the completion of the for loop#}
+    {# index0 means it starts from 0 and index1 means starts from 1#}
+    {% for i in users %}
+    <li>
+      {{ loop.index0 }} {{ i.name|upper }} , {{ i.age }}
+    </li>
+    {% endfor %}
+  </ul> 
+</h3>
+</body>
+</html>

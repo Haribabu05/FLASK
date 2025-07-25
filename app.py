@@ -11,6 +11,3 @@ def home():
 @app.route('/hi')
 def hi():
     return render_template("base.html",user={"name":"hari","id":"3456"})
-
-app.run(host='0.0.0.0',port=50100,debug=True)
-
