@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Flask instance folder
+instance/
+
+# Flask environment variables
+.env
+.env.*
+
+# SQLite database files
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Node.js (if frontend uses npm or yarn)
+node_modules/
+
+# Editor / IDE settings
+.vscode/
+.idea/
+*.swp
+*~
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
